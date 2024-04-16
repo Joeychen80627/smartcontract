@@ -1,4 +1,3 @@
-
 package main
 
 import (
@@ -228,4 +227,6 @@ func main() {
 	if err := chaincode.Start(); err != nil {
 		fmt.Printf("Error starting supply chain chaincode: %s", err.Error())
 	}
+}
+
 }
